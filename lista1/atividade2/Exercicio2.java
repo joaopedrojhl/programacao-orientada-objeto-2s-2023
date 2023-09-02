@@ -26,6 +26,7 @@ public class Exercicio2 {
         } else{
             System.out.println("Conversão inválida. Use 'C' para Celsius para Fahrenheit ou 'F' para Fahrenheit para Celsius.");
         }
+        scanner.close();
     }
 
     public static double celsiusParaFahrenheit(double celsius){

@@ -25,4 +25,12 @@ public class Produto {
     public String toString() {
         return nome + " - Quantidade: " + quantidade;
     }
+
+    public Double calcularValorTotal() {
+        return null;
+    }
+
+    public String imprimirNotaFiscal() {
+        return null;
+    }
 }
